@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser');
 
 const app = express();
 const port = 3000;
-const secretKey = 'Shrash'; // Change this to a secure key in production
+const secretKey = 'Secret'; // Change this to a secure key in production
 
 // Middleware setup
 app.use(cookieParser());
