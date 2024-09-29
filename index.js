@@ -78,6 +78,8 @@ app.get('/', (req, res) => {
     <div class="container">
       <h1>Login</h1>
       <form action="/login" method="POST">
+        <p style="color: white;">Username: guest</p>
+        <p style="color: white;">Password: password</p>
         <input type="text" name="username" placeholder="Username" required />
         <input type="password" name="password" placeholder="Password" required />
         <button type="submit">Login</button>
